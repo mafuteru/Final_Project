@@ -62,7 +62,7 @@ public class TextTest extends Application {
        Label label3m = new Label("Male. This is you.");
         VBox layout3m = new VBox();
         layout3m.setPadding(new Insets(20, 20, 20, 20));
-        Image imageP = new Image("Pent.png",300,370, false, false);
+        Image imageP = new Image("maleChar.png",300,370, false, false);
         ImageView pent = new ImageView();
         pent.setImage(imageP);
         pent.setPreserveRatio(true);
@@ -78,7 +78,7 @@ public class TextTest extends Application {
         Label label3f = new Label("Female. This is you.");
         VBox layout3f = new VBox();
         layout3f.setPadding(new Insets(20, 20, 20, 20));
-        Image imageJ = new Image("Julia.png",300,370, false, false);
+        Image imageJ = new Image("femaleChar.png",300,370, false, false);
         ImageView julia = new ImageView();
         julia.setImage(imageJ);
         julia.setPreserveRatio(true);
