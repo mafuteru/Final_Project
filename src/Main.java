@@ -62,6 +62,7 @@ public class Main extends Application {
        Label label3m = new Label("Male. This is you.");
         VBox layout3m = new VBox();
         layout3m.setPadding(new Insets(20, 20, 20, 20));
+        layout3m.setSpacing(10);
         Image imageP = new Image("maleChar.png",300,370, false, false);
         ImageView pent = new ImageView();
         pent.setImage(imageP);
@@ -87,7 +88,11 @@ public class Main extends Application {
 
         startf = new Button("Continue");
         startf.setOnAction(e -> window.setScene(scene2));
-        layout3f.getChildren().addAll(label3f,julia,startf);
+        StackPane bf = new StackPane();
+        bf.setPadding(new Insets(20, 20, 20, 20));
+        bf.getChildren().add(startf);
+
+        layout3f.getChildren().addAll(label3f,julia,bf);
         scene3f = new Scene(layout3f, 300, 400);
 
        //Start
