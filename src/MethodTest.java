@@ -51,6 +51,7 @@ public class MethodTest extends Application{
                 "\nhere in the woods. You get up and begin walking, determinedly gritting your teeth " +
                 "\nagainst the sharp pains in your head and limbs.");
 
+
         images = new ArrayList<>();
         images.add(black);
         images.add(peacefulForest);
